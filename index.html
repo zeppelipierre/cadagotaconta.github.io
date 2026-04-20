@@ -1,81 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>Cada Gota Conta</title>
-
-<style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #aeefff, #0077b6);
-    text-align: center;
-    color: white;
-}
-
-/* Efeito vidro */
-.container {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 30px;
-    margin: 40px auto;
-    width: 80%;
-    box-shadow: 0 0 20px rgba(255,255,255,0.5);
-}
-
-h1 {
-    font-size: 40px;
-    text-shadow: 0 0 10px #00d4ff;
-}
-
-h2 {
-    margin-top: 20px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-.footer {
-    margin-top: 30px;
-    font-size: 18px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saneamento Total | Água e Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<div class="container">
-    <h1>💧 Cada Gota Conta</h1>
-    <p><strong>Conscientização sobre o uso da água</strong></p>
+    <nav id="menu-principal">
+        <div class="logo">CADA GOTA CONTA</div>
+        <ul class="menu">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#importancia">Importância</a></li>
+            <li><a href="#processo">Tratamento</a></li>
+            <li><a href="#guias">Guias</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Participar</a></li>
+        </ul>
+    </nav>
 
-    <h2>Você sabia?</h2>
-    <p>60% do corpo humano é composto por água.</p>
+    <section id="home" class="banner-container">
+        <div id="banner-vibrante">
+            <div class="banner-conteudo">
+                <h1>Água Potável: Um Direito de Todos</h1>
+                <p>O saneamento básico é o pilar da saúde pública e da dignidade humana. Conheça as tecnologias que levam vida às comunidades.</p>
+                <a href="#importancia" class="btn-principal">Começar Exploração</a>
+            </div>
+        </div>
+    </section>
 
-    <h2>Importância da água</h2>
-    <ul>
-        <li>💙 Regula o organismo</li>
-        <li>💙 Melhora a concentração</li>
-        <li>💙 Hidrata a pele</li>
-    </ul>
+    <section id="importancia" class="secao-branca">
+        <h2 class="titulo-sessao">Impacto na Saúde e Economia</h2>
+        <div class="grid-fatos">
+            <div class="fato-card">
+                <span class="emoji">🏥</span>
+                <h3>Economia Vital</h3>
+                <p>Cada R$ 1 investido em saneamento economiza R$ 4 em gastos hospitalares e tratamentos de doenças evitáveis.</p>
+            </div>
+            <div class="fato-card">
+                <span class="emoji">💧</span>
+                <h3>Saúde Infantil</h3>
+                <p>O acesso a redes de esgoto e água tratada reduz drasticamente a mortalidade infantil e doenças como a cólera.</p>
+            </div>
+            <div class="fato-card">
+                <span class="emoji">🌍</span>
+                <h3>Preservação</h3>
+                <p>Tratar efluentes protege nossos rios e lençóis freáticos, garantindo recursos para as próximas gerações.</p>
+            </div>
+        </div>
+    </section>
 
-    <h2>Como economizar</h2>
-    <ul>
-        <li>🚿 Banhos rápidos</li>
-        <li>🚰 Fechar a torneira ao escovar os dentes</li>
-        <li>♻ Reutilizar água</li>
-    </ul>
+    <section id="processo" class="secao-azul">
+        <h2 class="titulo-sessao">O Ciclo do Tratamento</h2>
+        <div class="timeline-tratamento">
+            <div class="passo">
+                <h4>1. Captação</h4>
+                <p>Retirada de rios e represas com filtragem de detritos sólidos.</p>
+            </div>
+            <div class="passo">
+                <h4>2. Decantação</h4>
+                <p>A sujeira se aglutina e afunda, separando-se da água limpa.</p>
+            </div>
+            <div class="passo">
+                <h4>3. Filtragem Ativa</h4>
+                <p>Passagem por camadas de carvão, areia e pedregulhos finos.</p>
+            </div>
+            <div class="passo">
+                <h4>4. Desinfecção</h4>
+                <p>Adição de cloro e flúor para eliminar bactérias e vírus.</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="footer">
-        <p><strong>Cuidar da água é cuidar da vida 🌍</strong></p>
-    </div>
-</div>
+    <section id="guias" class="secao-branca">
+        <h2 class="titulo-sessao">Guias Práticos para a Casa</h2>
+        <div class="cards-container">
+            <div class="guia-detalhado">
+                <div class="icone">🚰</div>
+                <h3>Manutenção da Caixa D'água</h3>
+                <ul>
+                    <li>Limpeza completa a cada 6 meses.</li>
+                    <li>Verificação de frestas na tampa para evitar insetos.</li>
+                    <li>Uso de hipoclorito para desinfecção periódica.</li>
+                </ul>
+            </div>
+            <div class="guia-detalhado">
+                <div class="icone">🚽</div>
+                <h3>Uso Correto do Esgoto</h3>
+                <ul>
+                    <li>Nunca descarte óleo de cozinha em ralos.</li>
+                    <li>Evite jogar papel ou resíduos sólidos no vaso.</li>
+                    <li>Mantenha as caixas de gordura sempre limpas.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="secao-galeria">
+        <h2 class="titulo-sessao">Beleza que Protegemos</h2>
+        <div class="galeria-grid">
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7bc3?auto=format&fit=crop&w=800&q=80" alt="Estação de Tratamento">
+                <div class="legenda">Estação de Tratamento (ETA)</div>
+            </div>
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80" alt="Laboratório">
+                <div class="legenda">Controle de Qualidade</div>
+            </div>
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&w=800&q=80" alt="Infraestrutura">
+                <div class="legenda">Infraestrutura Urbana</div>
+            </div>
+            <div class="img-box">
+                <img src="https://images.unsplash.com/photo-1518281400032-15f143306232?auto=format&fit=crop&w=800&q=80" alt="Reservatório">
+                <div class="legenda">Reservatórios de Água</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao-contato">
+        <div class="form-wrapper">
+            <h2>Participe do Movimento</h2>
+            <form>
+                <input type="text" placeholder="Nome Completo" required>
+                <input type="email" placeholder="E-mail" required>
+                <textarea placeholder="Como o saneamento pode melhorar ai?" required></textarea>
+                <button type="submit">Enviar Manifesto</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>Desenvolvido por Gustavo Alves da Silva</strong></p>
+        <p>Projeto focado em Saneamento e Saúde Pública - 2026</p>
+    </footer>
 
 </body>
 </html>
