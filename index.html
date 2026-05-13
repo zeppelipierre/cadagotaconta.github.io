@@ -3,139 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saneamento Total | Água e Vida</title>
+    <title>Cada Gota Conta | Sustentabilidade Hídrica</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav id="menu-principal">
-        <div class="logo">CADA GOTA CONTA</div>
-        <ul class="menu">
-            <li><a href="#home">Início</a></li>
-            <li><a href="#importancia">Importância</a></li>
-            <li><a href="#processo">Tratamento</a></li>
-            <li><a href="#guias">Guias</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="#contato">Participar</a></li>
-        </ul>
-    </nav>
-
-    <section id="home" class="banner-container">
-        <div id="banner-vibrante">
-            <div class="banner-conteudo">
-                <h1>Água Potável: Um Direito de Todos</h1>
-                <p>O saneamento básico é o pilar da saúde pública e da dignidade humana. Conheça as tecnologias que levam vida às comunidades.</p>
-                <a href="#importancia" class="btn-principal">Começar Exploração</a>
+    <header id="header">
+        <div class="container header-flex">
+            <div class="logo">
+                <svg width="24" height="34" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0L22.3923 18C23.4187 19.7778 24 21.7778 24 23.8125C24 29.4375 18.6 34 12 34C5.4 34 0 29.4375 0 23.8125C0 21.7778 0.581325 19.7778 1.60769 18L12 0Z" fill="#00B4D8"/></svg>
+                <span>Cada Gota Conta</span>
             </div>
-        </div>
-    </section>
-
-    <section id="importancia" class="secao-branca">
-        <h2 class="titulo-sessao">Impacto na Saúde e Economia</h2>
-        <div class="grid-fatos">
-            <div class="fato-card">
-                <span class="emoji">🏥</span>
-                <h3>Economia Vital</h3>
-                <p>Cada R$ 1 investido em saneamento economiza R$ 4 em gastos hospitalares e tratamentos de doenças evitáveis.</p>
-            </div>
-            <div class="fato-card">
-                <span class="emoji">💧</span>
-                <h3>Saúde Infantil</h3>
-                <p>O acesso a redes de esgoto e água tratada reduz drasticamente a mortalidade infantil e doenças como a cólera.</p>
-            </div>
-            <div class="fato-card">
-                <span class="emoji">🌍</span>
-                <h3>Preservação</h3>
-                <p>Tratar efluentes protege nossos rios e lençóis freáticos, garantindo recursos para as próximas gerações.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="processo" class="secao-azul">
-        <h2 class="titulo-sessao">O Ciclo do Tratamento</h2>
-        <div class="timeline-tratamento">
-            <div class="passo">
-                <h4>1. Captação</h4>
-                <p>Retirada de rios e represas com filtragem de detritos sólidos.</p>
-            </div>
-            <div class="passo">
-                <h4>2. Decantação</h4>
-                <p>A sujeira se aglutina e afunda, separando-se da água limpa.</p>
-            </div>
-            <div class="passo">
-                <h4>3. Filtragem Ativa</h4>
-                <p>Passagem por camadas de carvão, areia e pedregulhos finos.</p>
-            </div>
-            <div class="passo">
-                <h4>4. Desinfecção</h4>
-                <p>Adição de cloro e flúor para eliminar bactérias e vírus.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="guias" class="secao-branca">
-        <h2 class="titulo-sessao">Guias Práticos para a Casa</h2>
-        <div class="cards-container">
-            <div class="guia-detalhado">
-                <div class="icone">🚰</div>
-                <h3>Manutenção da Caixa D'água</h3>
-                <ul>
-                    <li>Limpeza completa a cada 6 meses.</li>
-                    <li>Verificação de frestas na tampa para evitar insetos.</li>
-                    <li>Uso de hipoclorito para desinfecção periódica.</li>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#impacto">Impacto</a></li>
+                    <li><a href="#dicas">Economia</a></li>
+                    <li><a href="#contato">Participe</a></li>
+                    <li><button id="theme-toggle" class="btn-circle">🌙</button></li>
                 </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="tagline">ODS 6: Água Potável</span>
+                <h1>Preservar hoje é garantir o futuro da nossa comunidade.</h1>
+                <p>O movimento "Cada Gota Conta" une a comunidade universitária para transformar hábitos e garantir a gestão sustentável da água. Sua ação faz a diferença.</p>
+                <div class="hero-btns">
+                    <a href="#dicas" class="btn-primary">Ver Dicas Práticas</a>
+                    <a href="#impacto" class="btn-secondary">Nosso Impacto</a>
+                </div>
             </div>
-            <div class="guia-detalhado">
-                <div class="icone">🚽</div>
-                <h3>Uso Correto do Esgoto</h3>
-                <ul>
-                    <li>Nunca descarte óleo de cozinha em ralos.</li>
-                    <li>Evite jogar papel ou resíduos sólidos no vaso.</li>
-                    <li>Mantenha as caixas de gordura sempre limpas.</li>
-                </ul>
+            <div class="hero-image">
+                <img src="https://png.pngtree.com/png-vector/20250120/ourmid/pngtree-blue-water-droplet-with-natural-clarity-png-image_15280153.png" alt="Água potável flutuando" class="img-fluid floating">
             </div>
         </div>
     </section>
 
-    <section id="galeria" class="secao-galeria">
-        <h2 class="titulo-sessao">Beleza que Protegemos</h2>
-        <div class="galeria-grid">
-            <div class="img-box">
-                <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7bc3?auto=format&fit=crop&w=800&q=80" alt="Estação de Tratamento">
-                <div class="legenda">Estação de Tratamento (ETA)</div>
+    <section id="impacto" class="impact-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Por que agir agora?</h2>
+                <p>O desperdício de água impacta diretamente a saúde, a economia e o meio ambiente.</p>
             </div>
-            <div class="img-box">
-                <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80" alt="Laboratório">
-                <div class="legenda">Controle de Qualidade</div>
-            </div>
-            <div class="img-box">
-                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&w=800&q=80" alt="Infraestrutura">
-                <div class="legenda">Infraestrutura Urbana</div>
-            </div>
-            <div class="img-box">
-                <img src="https://images.unsplash.com/photo-1518281400032-15f143306232?auto=format&fit=crop&w=800&q=80" alt="Reservatório">
-                <div class="legenda">Reservatórios de Água</div>
+            <div class="cards-grid">
+                <div class="card impact-card">
+                    <div class="card-icon">🩺</div>
+                    <h3>Saúde</h3>
+                    <p>A hidratação correta potencializa o foco acadêmico e previne doenças.</p>
+                </div>
+                <div class="card impact-card active">
+                    <div class="card-icon">📉</div>
+                    <h3>Escassez</h3>
+                    <p>Menos de 1% da água do planeta é doce e acessível para consumo humano.</p>
+                </div>
+                <div class="card impact-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Energia</h3>
+                    <p>Tratar e distribuir água consome enormes quantidades de energia elétrica.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contato" class="secao-contato">
-        <div class="form-wrapper">
-            <h2>Participe do Movimento</h2>
-            <form>
-                <input type="text" placeholder="Nome Completo" required>
-                <input type="email" placeholder="E-mail" required>
-                <textarea placeholder="Como o saneamento pode melhorar ai?" required></textarea>
-                <button type="submit">Enviar Manifesto</button>
+    <section id="dicas" class="carousel-section secao-azul">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Hábitos que Mudam o Campus</h2>
+                <p>Arraste para o lado e veja como economizar no dia a dia.</p>
+            </div>
+            
+            <div class="carousel-container">
+                <button class="carousel-prev" id="prev-btn">&#10094;</button>
+                <div class="carousel-track-container">
+                    <ul class="carousel-track" id="carousel-track">
+                        <li class="carousel-slide current-slide">
+                            <div class="slide-content card">
+                                <span class="slide-icon">🚿</span>
+                                <h3>Banhos de 5 Minutos</h3>
+                                <p>Um banho de 15 minutos gasta até 135 litros. Reduzir para 5 minutos economiza 90 litros.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-slide">
+                            <div class="slide-content card">
+                                <span class="slide-icon">🚰</span>
+                                <h3>Torneira Fechada</h3>
+                                <p>Ao escovar os dentes ou ensaboar as mãos, feche a torneira. Isso economiza 12 litros por vez.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-slide">
+                            <div class="slide-content card">
+                                <span class="slide-icon">👕</span>
+                                <h3>Carga Máxima</h3>
+                                <p>Use a máquina de lavar louça ou roupa apenas quando estiverem com a capacidade total.</p>
+                            </div>
+                        </li>
+                        <li class="carousel-slide">
+                            <div class="slide-content card">
+                                <span class="slide-icon">🧐</span>
+                                <h3>Vazamentos</h3>
+                                <p>Uma torneira gotejando desperdiça mais de 40 litros por dia. Relate vazamentos no campus.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button class="carousel-next" id="next-btn">&#10095;</button>
+            </div>
+            
+            <div class="carousel-nav" id="carousel-nav">
+                <button class="carousel-indicator current-slide"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projeto" class="gallery-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Nossa Ação em Campo</h2>
+                <p>Veja os registros da distribuição de materiais informativos e o engajamento na faculdade.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item item-h-2">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop" alt="Estudantes interagindo">
+                    <div class="overlay"><span>Engajamento</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="rotulo.png" alt="Entrega de folhetos">
+                    <div class="overlay"><span>Distribuição</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="ods.jpg" alt="Material de conscientização">   
+                    <div class="overlay"><span>Material</span></div>
+                </div>
+                <div class="gallery-item item-w-2">
+                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=800&auto=format&fit=crop" alt="Reunião do time">
+                    <div class="overlay"><span>Trabalho em Equipe</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="cta-section">
+        <div class="container form-container glass-morph">
+            <div class="form-text">
+                <h2>Sua ideia pode virar ação!</h2>
+                <p>Compartilhe sua dica de economia ou curiosidade sobre a água. Os melhores envios serão publicados no perfil oficial do projeto!</p>
+            </div>
+            <form id="form-ideias" class="slick-form">
+                <input type="text" id="nome" placeholder="Seu Nome Completo" required>
+                <input type="email" id="email" placeholder="E-mail Acadêmico" required>
+                <textarea id="mensagem" placeholder="Sua dica de ouro..." rows="4" required></textarea>
+                <button type="submit" class="btn-primary">Enviar Minha Contribuição</button>
             </form>
+            <div id="mensagem-sucesso" class="success-alert" style="display: none;">Dica enviada! Obrigado por colaborar.</div>
         </div>
     </section>
 
     <footer>
-        <p><strong>Desenvolvido por Gustavo Alves da Silva</strong></p>
-        <p>Projeto focado em Saneamento e Saúde Pública - 2026</p>
+        <div class="container footer-grid">
+            <div class="footer-logo logo">
+                <svg width="18" height="26" viewBox="0 0 24 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 0L22.3923 18C23.4187 19.7778 24 21.7778 24 23.8125C24 29.4375 18.6 34 12 34C5.4 34 0 29.4375 0 23.8125C0 21.7778 0.581325 19.7778 1.60769 18L12 0Z" fill="#E0F7FA"/></svg>
+                <span>Cada Gota Conta</span>
+            </div>
+            <p>&copy; 2026 Projeto de Conscientização Hídrica. Todos os direitos reservados.</p>
+            <p>Hospedado via GitHub Pages.</p>
+        </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
